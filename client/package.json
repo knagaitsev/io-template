@@ -13,9 +13,7 @@
   "dependencies": {
     "clone": "^2.1.2",
     "colyseus.js": "^0.9.1",
-    "phaser": "^3.11.0"
-  },
-  "devDependencies": {
+    "phaser": "^3.11.0",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
@@ -28,8 +26,10 @@
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.4",
     "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  },
+  "devDependencies": {
     "webpack-dev-server": "^3.1.5",
-    "webpack-merge": "^4.1.4",
     "write-file-webpack-plugin": "^4.3.2"
   }
 }
