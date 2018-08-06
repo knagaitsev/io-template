@@ -29,12 +29,18 @@ Then, navigate to `http://localhost:3000` in your browser. If you get an error, 
 
 ### Deploying
 
-There is a separate webpack build already prepared for production. Simply run:
+First, build for production:
+
+```bash
+npm run build
+```
+
+Then, run:
 
 ```bash
 npm start
 ```
 
-to build and run in production mode.
+to run in production mode.
 
 If you have questions, join the Loonride Discord: https://discord.gg/Sfbg2Sh
