@@ -73,7 +73,7 @@ module.exports = class Game extends Phaser.Scene {
         let id = data.id;
         this.players[id] = {};
         let sprite = this.add.sprite(data.x, data.y, 'logo');
-        sprite.setScale(0.25);
+        sprite.setScale(0.5);
         this.players[id].sprite = sprite;
     }
 

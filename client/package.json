@@ -13,12 +13,12 @@
   "dependencies": {
     "clone": "^2.1.2",
     "colyseus.js": "^0.9.1",
+    "jquery": "^3.3.1",
     "phaser": "^3.11.0"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.1.5",
     "write-file-webpack-plugin": "^4.3.2",
-
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",

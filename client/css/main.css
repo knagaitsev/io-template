@@ -1,3 +1,47 @@
-a {
-    color: blue;
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* width and height of game container are resized dynamically in index.js */
+#phaser-example, #input-overlay, #game-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#phaser-example canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#input-overlay {
+    display: none;
+    z-index: 999;
+}
+
+#game-overlay {
+    pointer-events: none;
+    z-index: 998;
+}
+
+#game-overlay > div.leaderboard {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+#game-overlay > div.leaderboard h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
