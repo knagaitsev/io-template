@@ -1,6 +1,5 @@
 const webpack = require('webpack');
 const path = require('path');
-const WriteFilePlugin = require('write-file-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -36,7 +35,6 @@ module.exports = {
             'CANVAS_RENDERER': JSON.stringify(true),
             'WEBGL_RENDERER': JSON.stringify(true)
         }),
-        new WriteFilePlugin(),
         new HtmlWebpackPlugin({
             template: "html/index.html"
         }),
