@@ -4,7 +4,7 @@
   "description": "",
   "main": "./server/index.js",
   "scripts": {
-    "install": "(cd ./server && npm install) && (cd ./client && npm install) && npm run build",
+    "install": "cd ./server && npm install && cd .. && cd ./client && npm install && cd .. && npm run build",
     "build": "npm run build --prefix ./client",
     "start": "cross-env NODE_ENV=production npm run start-production --prefix ./server",
     "dev": "concurrently \"npm start --prefix ./server\" \"npm start --prefix ./client\"",
