@@ -4,13 +4,13 @@
   "description": "",
   "main": "./server/index.js",
   "scripts": {
-    "install": "npm --prefix ./server install ./server && npm --prefix ./client install ./client",
+    "install": "npm install ./server && npm install ./client && npm run build",
     "build": "npm run build --prefix ./client",
     "start": "cross-env NODE_ENV=production npm run start-production --prefix ./server",
     "dev": "concurrently \"npm start --prefix ./server\" \"npm start --prefix ./client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Loonride",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {

@@ -8,7 +8,7 @@
     "start-production": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Loonride",
   "license": "ISC",
   "dependencies": {
     "colyseus": "^0.9.3",
