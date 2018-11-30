@@ -29,13 +29,13 @@ Then, navigate to `http://localhost:3000` in your browser. If you get an error, 
 
 ### Deploying
 
-First, build for production:
+On your server, do:
 
 ```bash
-npm run build
+npm install
 ```
 
-Then, run:
+Then, do:
 
 ```bash
 npm start
